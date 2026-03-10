@@ -131,6 +131,7 @@ body{
     border-top-left-radius: min(6vw, 70px);
     border-top-right-radius: min(6vw, 70px);
     padding: 3vw;
+    min-height: 60vh; 
 }
 
 #searchTableRow2{
@@ -240,8 +241,10 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 #noMatchFoundMessage {
-    display: none;
+    display: none; 
+    margin: auto;
     text-align: center;
+    padding: 50px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 550px;
